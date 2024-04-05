@@ -1,0 +1,27 @@
+GET http://localhost:5270/students
+
+###
+GET http://localhost:5270/students/2
+
+###
+POST http://localhost:5270/students
+Content-Type: application/json
+
+{
+    "name": "another TEST",
+    "categoryId": 2,
+    "age": 14
+}
+
+###
+PUT http://localhost:5270/students/2
+Content-Type: application/json
+
+{
+    "name": "John",
+    "categoryId": 3,
+    "age": 18
+}
+
+###
+DELETE http://localhost:5270/students/3

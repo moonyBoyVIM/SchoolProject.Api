@@ -1,0 +1,4 @@
+GET http://localhost:5270/categories/students
+
+###
+GET http://localhost:5270/categories/teachers
