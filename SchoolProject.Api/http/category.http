@@ -1,4 +1,4 @@
-GET http://localhost:5270/categories/students
+GET http://{your_URL}/categories/students
 
 ###
-GET http://localhost:5270/categories/teachers
+GET http://{your_URL}/categories/teachers
